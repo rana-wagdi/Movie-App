@@ -1,0 +1,10 @@
+.activeLink {
+    color: red;
+    text-decoration: none;
+    
+ }
+ NavLink,li{
+ margin-left: 1rem;
+ text-decoration: none;
+ color: black;
+ }
