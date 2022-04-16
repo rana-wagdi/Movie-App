@@ -1,0 +1,14 @@
+.movieCard{
+    height: 650px;
+    width: 450px;
+    padding: 1rem 2rem;
+    margin: 1rem auto 8rem auto;
+    overflow: hidden;
+}
+.movieCard img{
+    height: 500px;
+    width: 100%;
+}
+.card-title{
+    font-weight: bold;
+}

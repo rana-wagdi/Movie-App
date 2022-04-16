@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import MovieCard from '../components/MovieCard'
+import '../styles/homePage.css'
 
 export default function HomePage() {
     const [movies, setMovies] = useState([])
@@ -12,13 +13,12 @@ export default function HomePage() {
     }, [])
     return (
         <>
-            <h1>Movies</h1>
 
-            <div className='row row-cols-1 row-cols-md-3 g-4'>
+            <div className='movies'>
                 {movies.map((movie) => {
                     console.log(movies)
                     return (
-                        <div className='col-md-4 mb-3' key={movie.id}>
+                        <div className='movie-item' key={movie.id}>
 
                             <MovieCard movie={movie} />
 
